@@ -1,0 +1,32 @@
+@import url("finecss/dist/index.min.css") layer(fine);
+
+@layer fine {
+  /* TODO: Move to plugin */
+  *,
+  ::before,
+  ::after {
+    border-width: 0;
+    border-style: solid;
+    border-color: theme("borderColor.DEFAULT", currentColor);
+  }
+
+  :root {
+    --body-padding-x: 0px;
+    --body-padding-y: 0px;
+    --svg-height: 1em;
+    --theme-primary: 350 75% 60%;
+    --theme-tint: 30;
+  }
+
+  /* TODO: Move to Fine */
+  button:has(svg),
+  a[role="button"]:has(svg) {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+  }
+}
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
