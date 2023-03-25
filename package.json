@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "clsx": "^1.2.1",
-    "finecss": "github:andreasphil/fine#v0.9.0",
+    "finecss": "github:andreasphil/fine#v0.9.1",
     "immer": "^9.0.16",
     "lodash.merge": "^4.6.2",
     "lodash.sortby": "^4.7.0",
