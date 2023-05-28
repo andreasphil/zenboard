@@ -5,7 +5,6 @@ const colors = require("tailwindcss/colors");
 module.exports = {
   corePlugins: { preflight: false },
   content: ["./src/**/*.{ts,tsx,css}"],
-  plugins: [require("@tailwindcss/line-clamp")],
 
   theme: {
     borderRadius: {
