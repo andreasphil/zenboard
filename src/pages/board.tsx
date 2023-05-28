@@ -1,4 +1,3 @@
-import logoUrl from "@/assets/icon.png";
 import { useDialog } from "@/components/dialogProvider";
 import { List } from "@/components/list";
 import { useStore } from "@/lib/store";
@@ -22,18 +21,8 @@ export function Board() {
 
   return (
     <>
-      {/* App headers */}
-      <header>
-        <nav data-variant="fixed" class="px-6 py-1 shadow-medium">
-          <span class="flex items-center gap-4">
-            <img src={logoUrl} class="h-12" />
-            <strong>Zenboard</strong>
-          </span>
-        </nav>
-      </header>
-
       {/* Lists view */}
-      <div data-nav="fixed" class="flex h-screen">
+      <div class="flex h-screen">
         {/* Available lists */}
         {lists.map((i) => (
           <List id={i.id} key={i.id} />

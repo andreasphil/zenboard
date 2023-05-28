@@ -28,6 +28,6 @@ npm build         # Creates bundled + minified output in dist
 
 ## Credits
 
-Apart from the open source packages listed in [package.json](package.json), Zenboard uses icons from [Lucide](https://lucide.dev/).
+Zenboard depends on a number of open source packages listed in [package.json](package.json).
 
 Thanks 🙏
